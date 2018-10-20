@@ -1,0 +1,32 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+
+.login-card .mat-card-image:first-child {
+    margin-top:0 !important
+}
+
+.primary-red-btn {
+    background-color: #ee1c22;
+    color: white;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.searchicon{
+       position: relative !important;
+    top: 8px !important;
+}
+.pointer{
+    cursor:pointer;
+}
+// .bg{
+//     background-color: "Web/Icons/banner_shopping.jpg";
+// }

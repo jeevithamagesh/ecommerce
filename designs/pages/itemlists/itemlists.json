@@ -1,0 +1,13 @@
+{
+    "appPageId": "e74ab554-7a1d-15c6-64c2-556bc52b55ef",
+    "appPageName": "itemlists",
+    "componentName": "itemlistsComponent",
+    "selectorName": "bh-itemlists",
+    "htmlFileName": "itemlists.template.html",
+    "tsFileName": "itemlists.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

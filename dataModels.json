@@ -1,0 +1,68 @@
+{
+    "612ee53c-d6b7-0ef7-4743-4102b97d9d63": {
+        "dataModelId": "612ee53c-d6b7-0ef7-4743-4102b97d9d63",
+        "name": "user",
+        "description": "DM for mapping user values from form",
+        "dataSource": "neutrinos-rt",
+        "fields": [
+            {
+                "name": "username",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "password",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "remember",
+                "fieldType": 4,
+                "isArray": false
+            }
+        ]
+    },
+    "fcf1663e-a0c3-6b47-fbf1-01eacc56023e": {
+        "dataModelId": "fcf1663e-a0c3-6b47-fbf1-01eacc56023e",
+        "name": "itemsmodel",
+        "description": "datamodel",
+        "dataSource": "ecommerce-rt",
+        "fields": [
+            {
+                "name": "username",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "image",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "name",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "price",
+                "fieldType": 1,
+                "isArray": false
+            },
+            {
+                "name": "productId",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "quantity",
+                "fieldType": 1,
+                "isArray": false
+            },
+            {
+                "name": "added",
+                "fieldType": 4,
+                "isArray": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "routes": [
+        {
+            "path": "login",
+            "component": "loginComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "home",
+            "component": "homeComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": "NAuthGuardService",
+            "children": [
+                {
+                    "path": "itemlists",
+                    "component": "itemlistsComponent",
+                    "pathMatch": "",
+                    "redirectTo": "",
+                    "resolve": "",
+                    "data": "",
+                    "canActivate": ""
+                },
+                {
+                    "path": "cart",
+                    "component": "cartComponent",
+                    "pathMatch": "",
+                    "redirectTo": "",
+                    "resolve": "",
+                    "data": "",
+                    "canActivate": ""
+                },
+                {
+                    "path": "orders",
+                    "component": "ordersComponent",
+                    "pathMatch": "",
+                    "redirectTo": "",
+                    "resolve": "",
+                    "data": "",
+                    "canActivate": ""
+                }
+            ]
+        },
+        {
+            "path": "signup",
+            "component": "signupComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "''",
+            "component": "",
+            "pathMatch": "full",
+            "redirectTo": "home/itemlists",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        }
+    ]
+}

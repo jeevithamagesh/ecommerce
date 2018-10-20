@@ -1,0 +1,56 @@
+<div fxLayout="row wrap" style="margin-top: 6% !important;" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+  <mat-card>
+    <form [formGroup]="loginForm">
+      <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <mat-form-field>
+          <input matInput="" name="first name" placeholder="First Name" required id="firstName" formControlName="firstName">
+          <mat-error *ngIf="loginForm.controls[&apos;firstName&apos;].hasError(&apos;required&apos;)">
+            Required
+          </mat-error>
+          <mat-error *ngIf="loginForm.controls[&apos;firstName&apos;].hasError(&apos;minlength&apos;) &amp;&amp; !loginForm.controls[&apos;firstName&apos;].hasError(&apos;required&apos;)">
+            Please enter min 5 characters
+          </mat-error>
+
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput="" name="last name" placeholder="Last Name" required id="lastName" formControlName="lastName">
+          <mat-error *ngIf="loginForm.controls[&apos;lastName&apos;].hasError(&apos;required&apos;)">
+            Required
+          </mat-error>
+          <mat-error *ngIf="loginForm.controls[&apos;lastName&apos;].hasError(&apos;minlength&apos;) &amp;&amp; !loginForm.controls[&apos;lastName&apos;].hasError(&apos;required&apos;)">
+            Please enter min 5 characters
+          </mat-error>
+        </mat-form-field>
+        <!-- <mat-form-field>
+          <input matInput="" name="username" placeholder="Username" required id="username" formControlName="username">
+          <mat-error *ngIf="loginForm.controls[&apos;username&apos;].hasError(&apos;required&apos;)">
+            Required
+          </mat-error>
+          <mat-error *ngIf="loginForm.controls[&apos;username&apos;].hasError(&apos;pattern&apos;) &amp;&amp; !loginForm.controls[&apos;username&apos;].hasError(&apos;required&apos;)">
+            Please enter valid email
+          </mat-error>
+        </mat-form-field> -->
+        <mat-form-field>
+          <input matInput="" name="email" placeholder="Email" required id="username" formControlName="username">
+          <mat-error *ngIf="loginForm.controls[&apos;username&apos;].hasError(&apos;required&apos;)">
+            Required
+          </mat-error>
+          <mat-error *ngIf="loginForm.controls[&apos;username&apos;].hasError(&apos;pattern&apos;) &amp;&amp; !loginForm.controls[&apos;username&apos;].hasError(&apos;required&apos;)">
+            Please enter valid email
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput="" name="password" type="password" placeholder="Password" required id="password" formControlName="password">
+          <mat-error *ngIf="loginForm.controls[&apos;password&apos;].hasError(&apos;required&apos;)">
+            Required
+          </mat-error>
+          <mat-error *ngIf="loginForm.controls[&apos;password&apos;].hasError(&apos;minlength&apos;) &amp;&amp; !loginForm.controls[&apos;password&apos;].hasError(&apos;required&apos;)">
+            Please enter min 5 characters
+          </mat-error>
+        </mat-form-field>
+
+        <button mat-raised-button="" color="primary" (click)="submit()">Register</button>
+      </div>
+    </form>
+  </mat-card>
+</div>

@@ -1,0 +1,10 @@
+<div fxLayout="row wrap" fxLayoutGap="1em" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" *ngFor="let img of image;let i=index;">
+    <mat-card>
+      <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false"><img imgSrc="{{img.image}}">
+        <h4>{{img.name}}</h4>
+        <h5>${{img.price}}</h5><button mat-raised-button="" *ngIf=" !newArray[i]" color="accent" (click)="addItem(img)">Add to Cart</button><button mat-raised-button="" *ngIf=" newArray[i]" disabled color="accent">Added to Cart</button>
+      </div>
+    </mat-card>
+  </div>
+</div>

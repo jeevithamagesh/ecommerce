@@ -1,0 +1,13 @@
+{
+    "appPageId": "57c7a9fc-be29-917a-bf4e-8a6a139e3960",
+    "appPageName": "orders",
+    "componentName": "ordersComponent",
+    "selectorName": "bh-orders",
+    "htmlFileName": "orders.template.html",
+    "tsFileName": "orders.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

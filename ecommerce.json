@@ -1,0 +1,12 @@
+{
+    "artId": "",
+    "appName": "ecommerce",
+    "description": "ecommerce app",
+    "createDate": "2018-10-15T08:51:07.312Z",
+    "lastModified": "2018-10-15T08:51:07.312Z",
+    "createdBy": "user",
+    "artURL": "http://localhost:3000/bhive-art/",
+    "imgSourcePath": "appIcon-1539593468488.png",
+    "version": "1.0.0",
+    "dataSource": "neutrinos-rt"
+}

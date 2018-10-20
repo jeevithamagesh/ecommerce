@@ -1,0 +1,48 @@
+<div fxLayout="column " fxFlex="100" fxLayoutAlign="center center" fxShow="true" fxHide="false" fxFill="">
+  <div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFill="">
+    <mat-toolbar color="primary" style="z-index:9;">
+      <div fxLayout="row wrap" fxFlex="100" fxLayoutAlign="space-evenly center" fxShow="true" fxHide="false">
+        <div fxLayout="column wrap" fxFlex="10" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.xs="50">
+          <h5>Neutrinos</h5>
+        </div>
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxHide.xs="true" fxHide.sm="false">
+          <form class="example-form">
+
+            <mat-form-field class="example-full-width">
+
+              <input type="text" matInput="" placeholder="Search">
+              <mat-icon class="searchicon" matPrefix="">search</mat-icon>
+            </mat-form-field>
+
+          </form>
+        </div>
+        <div fxLayout="column wrap" class="pointer" fxFlex="10" fxLayoutAlign="  none" fxShow="true" fxHide="false" fxHide.xs="false" routerLink="itemlists">
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" routerLink="itemlists">
+            <mat-icon>home</mat-icon>
+            <h6 style="font-size: 84%">Home</h6>
+          </div>
+        </div>
+        <div fxLayout="column wrap" class="pointer" fxFlex="10" fxLayoutAlign="  none" fxShow="true" fxHide="false" fxFlex.xs="50">
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" routerLink="cart">
+            <mat-icon>shopping_cart</mat-icon>
+            <h6 style="font-size: 84%;">Cart</h6>
+          </div>
+        </div>
+        <div fxLayout="column wrap" class="pointer" fxFlex="10" fxLayoutAlign="  none" fxShow="true" fxHide="false" fxHide.xs="true">
+          <div fxLayout="row " fxLayoutAlign="start stretch" fxShow="true" fxHide="false" routerLink="orders">
+            <mat-icon style="margin-left: 21%;">card_giftcard</mat-icon>
+            <h6 style="font-size: 84%;margin-left: 2%;">Your Orders</h6>
+          </div>
+        </div>
+        <div fxLayout="column wrap" class="pointer" fxFlex="10" fxLayoutAlign="end end" fxShow="true" fxHide="false" (click)="logoutUser()">
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+            <mat-icon>power_settings_new</mat-icon>
+          </div>
+        </div>
+      </div>
+    </mat-toolbar>
+  </div>
+  <div fxLayout="row wrap" fxFlex="calc(100%-64px)" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" fxFlex.xs="calc(100%-56px)">
+    <router-outlet></router-outlet>
+  </div>
+</div>

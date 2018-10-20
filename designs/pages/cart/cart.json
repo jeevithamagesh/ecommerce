@@ -1,0 +1,13 @@
+{
+    "appPageId": "4191db4b-ab42-671f-b601-8e05a5724d09",
+    "appPageName": "cart",
+    "componentName": "cartComponent",
+    "selectorName": "bh-cart",
+    "htmlFileName": "cart.template.html",
+    "tsFileName": "cart.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

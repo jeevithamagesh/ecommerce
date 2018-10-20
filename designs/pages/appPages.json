@@ -1,0 +1,37 @@
+{
+    "b1c5f4af-15fe-c86a-e713-ed634c0ef25c": {
+        "appPageName": "login",
+        "componentName": "loginComponent",
+        "isEntry": false
+    },
+    "c4581771-ca63-f41c-3097-bf95322621ac": {
+        "appPageName": "home",
+        "componentName": "homeComponent",
+        "isEntry": false
+    },
+    "dd3691d2-d623-8efe-ea01-b9543d360deb": {
+        "appPageName": "loader",
+        "componentName": "loaderComponent",
+        "isEntry": false
+    },
+    "5b0201d9-0349-1b7b-d69d-362c4f4563e1": {
+        "appPageName": "signup",
+        "componentName": "signupComponent",
+        "isEntry": false
+    },
+    "e74ab554-7a1d-15c6-64c2-556bc52b55ef": {
+        "appPageName": "itemlists",
+        "componentName": "itemlistsComponent",
+        "isEntry": false
+    },
+    "4191db4b-ab42-671f-b601-8e05a5724d09": {
+        "appPageName": "cart",
+        "componentName": "cartComponent",
+        "isEntry": false
+    },
+    "57c7a9fc-be29-917a-bf4e-8a6a139e3960": {
+        "appPageName": "orders",
+        "componentName": "ordersComponent",
+        "isEntry": false
+    }
+}
